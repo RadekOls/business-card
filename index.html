@@ -3,24 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
     <title>Business Card</title>
 </head>
 <body>
     <main class="main">
-        <header class="header">
-          <h1 class="header__main header__main--js">Radosław Olszewski Web Developer</h1>
+        
+        <article class="person">
+            <img  class="person__picture" src="../radek.jpg.jpg" alt="Radek Olszewski">
+        <div>
+            <header class="person__info">
+          <h1 class="person__name">Radosław Olszewski</h1>
+          <p class="person__position">frontend developer</p>
         </header>
-  
-        <section class="section">
-          <h2 class="section__header">Warstwy strony internetowej</h2>
-  
-          <article class="section-article">
-            <h3 class="section-article__header">4 rodzaje warstw</h3>
-            <p class="section-article__describe">
-              Warstwy strony internetowej to treść, semantyka html, prezentacja
-              css, interakcja JavaScript
+            <p class="person__description">
+                Początkujący programista, fotograf, fan kryminału oraz gier RPG. Uwielbia eksperymentować z nowymi technologiami, w swojej twórczości ocierając się o sztukę. 
             </p>
+           
+            <p class="person__description">
+                W sieci: <a class="person_link" href="https://www.facebook.com/radoslawo86>Facebook">Facebook</a>, <a class="person_link" href="https://github.com/RadekOls">Github</a>.
+            </p>
+        </div>
           </article>
-        </section>
 </body>
 </html>
