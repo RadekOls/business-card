@@ -1,71 +1,65 @@
-html{
-    box-sizing: border-box;
+html {
+  box-sizing: border-box;
 }
 
-*. *:after, *:before{
-    box-sizing: inherit;
+*. *:after,
+*:before {
+  box-sizing: inherit;
 }
 
-
-body{
- 
-    background-color: #2C2141;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh; 
-    font-family: Arial, sans-serif;
-
+body {
+  background-color: #2c2141;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
 }
 
-.main{
-    width: 624px;
-    background-color: #F8F8F8; 
-    margin: 16px;
-    padding: 32px;
-    border-radius: 16px;
+.main {
+  width: 624px;
+  background-color: #f8f8f8;
+  margin: 16px;
+  padding: 32px;
+  border-radius: 16px;
 }
 
-.person{
-    display: flex;
-   
+.person {
+  display: flex;
 }
 
-.person__info{
-margin-bottom: 24px;
+.person__info {
+  margin-bottom: 24px;
 }
 
-.person__name{
-font-size: 36px;
-font-weight: normal;
-margin: 0;
-
+.person__name {
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
 }
 
-.person__position{
-    font-size: 18px;
-    color:#545454;
-    font-style: italic;
-    margin: 0;
-
+.person__position {
+  font-size: 18px;
+  color: #545454;
+  font-style: italic;
+  margin: 0;
 }
 
-.person__picture{
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    margin-right: 32px;
+.person__picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-right: 32px;
 }
 
-.person__description{
-    font-size: 16px;
-   line-height: 22px;
+.person__description {
+  font-size: 16px;
+  line-height: 22px;
 }
 
-.person_link{
-color: red;
-text-decoration: none;
+.person_link {
+  color: red;
+  text-decoration: none;
 }
-div{
- 
+div {
 }
